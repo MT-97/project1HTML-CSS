@@ -1,0 +1,15 @@
+body{
+    background-image:url(logo\ Eredivisie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table,th, td {
+    border: 3px groove rgb(111, 111, 236);
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
