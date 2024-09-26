@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUI boekingsformulier</title>
+    <link rel="stylesheet" href="opdracht3.2.css">
+</head>
+<body>
+    <h1>Boekingsformulier</h1>
+  <form action="">
+    <div>
+    <label for="Reisbestemming">Reisbestemming</label>
+    <select name="Reisbestemming" id="Reisbestemming">
+     <option value="Madrid,Spanje">Madrid,Spanje</option>
+     <option label="Londen,Engeland">Londen,Engeland</option>
+     <option label="Parijs,Frankrijk">Parijs,Frankrijk</option> 
+    </select>
+    </div>
+    <br>
+    <div>
+     <label for="date">Heenreis</label>
+     <input type="date" min="2024-09-25" max="2026-09-14">
+     <label for="date">Terugreis</label>
+     <input type="date" min="2024-09-25" max="2026-09-14">
+    </div>
+    <br>
+    <div>
+     <label for="Reizigers">Reizigers</label>
+     <select name="Reizigers" id="Reizigers">
+     <option value="1">1</option>
+     <option label="2">2</option>
+     <option label="3">3</option>
+     <option label="4">4</option>
+     </select>
+    </div>
+    <br>
+    <div>
+     <label for="Voornaam:">Voornaam:</label>
+     <input type="text" name="Voornaam:" id="Voornaam:" pattern="[A-Za-z]+" title="Alleen alfabetische letters" required> 
+     <label for="Achternaam:">Achternaam:</label>
+     <input type="text" name="Achternaam:" id="Achternaam:" pattern="[A-Za-z]+" title="Alleen alfabetische letters" required>
+     <br><br>
+     <label for="Geslacht">Geslacht</label>
+     <select name="Geslacht" id="Geslacht">
+     <option value="Man">Man</option>
+     <option label="Vrouw">Vrouw</option>
+     </select>
+    </div>
+    <br>
+    <div>
+     <label for="Straatnaam:">Straatnaam:</label>
+     <input type="text" name="Straatnaam:" id="Straatnaam:">
+     <label for="Huisnummer:">Huisnummer:</label>
+     <input type="text" name="Huisnummer:" id="Huisnummer:">
+    <br><br>
+     <label for="Huisnummertoevoeging:">Huisnummertoevoeging:</label>
+     <input type="text" name="Huisnummertoevoeging:" id="Huisnummertoevoeging:">
+     <label for="Huisnummer Postcode:">Postcode:</label>
+     <input type="text" name="Postcode:" id="Postcode:">
+     <br><br>
+     <label for="Woonplaats:">Woonplaats:</label>
+     <input type="text" name="Woonplaats:" id="Woonplaats:">
+     <label for="Land:">Land:</label>
+     <input type="text" name="Land:" id="Land:">
+     <br><br>
+     <label for="BSN nummer:">BSN nummer:</label>
+     <input type="text" name="BSN nummer:" id="BSN nummer:" inputmode="numeric" maxlength="9" pattern="[0-9]*">
+     <label for="Email">Email:</label>
+     <input type="email" name="Email" id="Email" required>
+    </div> 
+    <br><br>
+    <input type="submit" value="Boek nu"><br><br>
+    <div>
+     <label for="email">Email:</label>
+     <input type="email" name="email" id="email" required><br><br>
+     <label for="wachtwoord">wachtwoord</label>
+     <input type="password" name="wachtwoord" id="wachtwoord" required><br><br>
+     <label for=" Herhaal wachtwoord">Herhaal wachtwoord:</label>
+     <input type="password" name="Herhaal wachtwoord" id="Herhaal wachtwoord" required><br><br>
+     <input type="submit" value="Account maken">
+    </div>
+  </form> 
+</body>
+</html>
